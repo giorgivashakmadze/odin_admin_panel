@@ -1,0 +1,1 @@
+simple admin panel project with only css and html , for odin project.
