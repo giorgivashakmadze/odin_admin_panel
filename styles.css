@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Roboto:wght@100&display=swap');
+body{
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.sidebar{
+    background-color: #0ea5e9;
+    height: 100vh;
+}
+.main-content{
+    background-color: white;
+    height: 100vh;
+}
+.sidebar > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin: 15px 15px;
+}
+.sidebar img{
+    max-width: 30px;
+    height: auto;
+}
+.sidebar .dashboard img{
+    max-width: 50px;
+    height: auto;
+}
+.sidebar img {
+    filter: invert(1);
+  }
+.sidebar h1{
+    font-size: medium;
+    font-weight: 700;
+    color: white;
+}
+  
